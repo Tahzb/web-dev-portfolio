@@ -34,8 +34,7 @@ color: #FD6E0A;
  color: white;
  padding: 15px 30px;
  border-radius: 6px;
-border
-: none; /* this is used for no border in border radius */
+ border: none; /* this is used for no border in border radius */
 }
 /* header */
 .header{
@@ -54,6 +53,7 @@ nav{
 .nav-title{
      font-weight: 800;
      font-size: 45px;
+     margin-left:5px;
 }
 nav ul {
   display: flex;
@@ -79,6 +79,7 @@ nav li a {
 }
 .banner-content{
   max-width: 580px;
+  margin-left: 71px;
 }
 .banner-greetings{
   font: 60px;
@@ -122,6 +123,59 @@ nav li a {
 .skill{
   padding: 30px;
   box-shadow:0px 6px 50px 0px rgba(0, 0, 0, 0.06);
-  border: 5px;
-  
+  border: 5px; 
+}
+/* resume section container */
+.resume-container{
+  display: flex;
+  gap: 24px;
+
+}
+.experience-sub-title{
+  font-size: 20px;
+ font-weight: 600;
+ margin-bottom: 20px;
+}
+.experience-description, .experience-sub-title {
+  color:#757575;
+}
+.resume hr{
+  margin: 30px 5px;
+}
+.resume-download-cv{
+  margin: 50px;
+}
+/* footer */
+footer{
+  display:flex;
+  padding: 130px 230px;
+  gap: 100px;
+}
+.footer-column 
+{
+width: 50%;
+}
+input[type="text"], footer input[type="email"], footer textarea
+{
+  height: 64px;
+  border-radius: 5px;
+  background-color: white;
+  display: block;
+  width: 100%;
+  padding: 10px 20px;
+  margin-bottom: 24px;
+  border: none;
+  font-size: 16px;
+
+}
+
+.btn-secondary{
+background-color: #FD6E0A;
+font-weight:bold;
+font-size: 15px;
+color: white;
+padding: 15px 20px ;
+border-radius: 6px;
+border: none;
+text-align: center;
 }
